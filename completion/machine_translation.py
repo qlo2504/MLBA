@@ -7,7 +7,7 @@ class TextTranslatorApp:
         self.root = root
         self.root.title("Text Translator")
         self.root.resizable(False, False)
-        self.create_widgets()   # ❌ bỏ self.translator = Translator()
+        self.create_widgets()  
 
     def create_widgets(self):
         main_frame = ttk.Frame(self.root, padding="20 20 20 20")
